@@ -26,7 +26,7 @@ const SignUp = () => {
 
 
                 // Create user in DB
-                fetch('http://localhost:3000/users', {
+                fetch('https://coffee-store-server-two-bay.vercel.app/users', {
                     method: "POST",
                     headers: {
                         'content-type': 'application/json',
